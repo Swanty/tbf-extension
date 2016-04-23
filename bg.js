@@ -44,7 +44,7 @@ var replacements = [
 	["GL-1", "Level3 cdn", "twitch2-live.hls.adaptive.level3.net"],
 	["GL-2", "Edgecast", "g1.edgecast.hls.ttvnw.net"],
 
-	["US-1", "San Francisco", "video-edge-2ca3e4.sfo01.hls.jtvnw.net"],
+	["US-1", "San Francisco", "video-edge-2ca3e4.sfo01.hls.ttvnw.net"],
 	["US-2", "Seattle", "video-edge-7e8e10.sea01.hls.ttvnw.net"],
 	["US-3", "San Jose", "video-edge-7e96ac.sjc01.hls.ttvnw.net"],
 	["US-4", "Chicago", "video-edge-835140.ord02.hls.ttvnw.net"],
