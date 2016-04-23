@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Popup</title>
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+				font-size: 100%;
+            }
+            
+			hr {
+				margin: 0px;
+			}
+			
+            #content {
+                white-space: nowrap;
+                padding: 5px;
+                min-width: 200px;
+                max-height: 700px;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+			
+			#credit {
+				text-align: center;
+				font-size: 13px;
+				padding: 5px;
+				font-weight: bold;
+				color: #ffffff;
+				background-color: #000000;
+			}
+			
+			#beer {
+				color: #ff7700;
+			}
+			
+			#social {
+				color: #55acee;
+			}
+			
+			#twitch {
+				color: #B9A3E3;
+			}
+            
+            .country {
+                font-size: 13px;
+                font-weight: bold;
+				margin: 0px;
+            }
+			
+			p {
+                margin: 0px;
+			}
+            
+            .country:first-child {
+                margin-top: 0;
+            }
+			
+			a {
+				color: inherit;
+				text-decoration: inherit;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+			}
+            
+            .server {
+                font-size: 12px;
+                cursor: pointer;
+            }
+            
+            .server:hover {
+                text-decoration: underline;
+            }
+            
+            .server--selected {
+                color: #ff0000;
+                font-weight: bold;
+            }
+        </style>
+
+        <script src="popup.js" type="text/javascript"></script>
+    </head>
+    <body>
+		<div id="credit">
+		<p><a target="_blank" href="https://www.twitch.tv/vixing"><span id="twitch">by VixinG</span></a> - <a target="_blank" href="https://twitter.com/vixing_"><span id="social">Twitter</span></a><p><a target="_blank" href="https://www.twitchalerts.com/donate/vixing"><span id="beer">Donate</span></a>if it helped :)</div>
+		<hr>
+		<div id="content"></div>
+    </body>
+</html>
