@@ -1,10 +1,10 @@
 /*
 
 #***************************************#
-#      Twitch Buffering Fix v 1.0.8     #
+#		Twitch Buffering Fix v 1.1.1
 #***************************************#
-#	Author:  VixinG
-#	Twitter:  twitter.com/VixinG_
+#	Author:		VixinG
+#	Twitter:	twitter.com/VixinG_
 #***************************************#
 #
 #	I am not affiliated with Twitch (Twitch.tv) whatsoever.
@@ -41,7 +41,6 @@ var countries = {
 
 var replacements = [
 	["def", "Default server", "none"],
-	["GL-1", "Level3 cdn", "twitch2-live.hls.adaptive.level3.net"],
 	["GL-2", "Edgecast", "g1.edgecast.hls.ttvnw.net"],
 
 	["US-1", "San Francisco", "video-edge-2ca3e4.sfo01.hls.ttvnw.net"],
@@ -62,11 +61,11 @@ var replacements = [
 
 	["FR", "Paris", "video-edge-49b0d4.cdg01.hls.ttvnw.net"],
 
-	["DE", "Frankfurt", "video20.fra01.hls.ttvnw.net"],
+	["DE", "Frankfurt", "video-edge-748bd0.fra01.hls.ttvnw.net"],
 	
 	["PL", "Warsaw", "video-edge-8f9918.waw01.hls.ttvnw.net"],
 
-	["CZ", "Prague", "video20.prg01.hls.ttvnw.net"],
+	["CZ", "Prague", "video-edge-4ae010.prg01.hls.ttvnw.net"],
 	
 	["AU", "Sydney", "video-edge-8c6ee0.syd01.hls.ttvnw.net"],
 	
