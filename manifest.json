@@ -19,6 +19,6 @@
 	},
 	"manifest_version": 2,
 	"name": "Twitch Buffering Fix",
-	"permissions": ["storage", "contextMenus", "webRequest", "webRequestBlocking", "http://*.hls.ttvnw.net/*", "http://*.hls.twitch.tv/*"],
-	"version": "1.1.0"
+	"permissions": ["storage", "contextMenus", "webRequest", "webRequestBlocking", "http://*.hls.ttvnw.net/*", "http://*.hls.twitch.tv/*", "https://*.hls.ttvnw.net/*", "https://*.hls.twitch.tv/*"],
+	"version": "1.1.1"
 }
